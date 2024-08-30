@@ -1,0 +1,15 @@
+{
+  "name": "wasm-module",
+  "version": "0.0.1",
+  "main": "./pkg/wasm_module.js",
+  "author": "Todor Imreorov <todor.imreorov@calrec.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "serve ./demo",
+    "build": "wasm-pack build --target web && copyfiles ./pkg/wasm_* ./demo"
+  },
+  "devDependencies": {
+    "copyfiles": "^2.4.1",
+    "serve": "^14.2.3"
+  }
+}
