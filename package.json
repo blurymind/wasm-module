@@ -2,7 +2,7 @@
   "name": "wasm-module",
   "version": "0.0.1",
   "main": "./pkg/wasm_module.js",
-  "author": "Todor Imreorov <todor.imreorov@calrec.com>",
+  "author": "Todor Imreorov <todor.imreorov@gmail.com>",
   "license": "MIT",
   "scripts": {
     "start": "serve ./demo",
