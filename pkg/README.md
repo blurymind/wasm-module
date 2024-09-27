@@ -1,5 +1,4 @@
-To build
+To build and run demo server
+yarn build && yarn start
 
-wasm-pack build --target web
-
-output is in pkg folder
+output module is in the pkg folder

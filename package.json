@@ -6,10 +6,12 @@
   "license": "MIT",
   "scripts": {
     "start": "serve ./demo",
-    "build": "wasm-pack build --target web && copyfiles ./pkg/wasm_* ./demo"
+    "build": "wasm-pack build --target web && copyfiles ./pkg/wasm_* ./demo",
+    "build-linux": "cargo build --target x86_64-unknown-linux-gnu"
   },
   "devDependencies": {
     "copyfiles": "^2.4.1",
-    "serve": "^14.2.3"
+    "serve": "^14.2.3",
+    "wasm-pack": "^0.13.0"
   }
 }
